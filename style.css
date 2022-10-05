@@ -1,64 +1,53 @@
+/*General: */
 *{
     font-family: 'Roboto', sans-serif;
 }
 
 .hero, footer {
     background-color: #1F2937;
-    color: #F9FAF8;
-    
+    color: #F9FAF8;  
 }
-
+.hero-section, header, .technologies-list, .contact{
+    display: flex;
+}
+/*Hero: */
 .hero {
     padding: 10px 220px 100px;
 }
-
 .logo{
     font-size: 24px;
     font-weight: 800;
     flex: 1;
 }
-
 .header-links{
     flex: 1;
     color: #E5E7EB;
     text-align: center;
 }
-
 .header-links a{
     margin-left: 25px;
 }
-
 .header-links a:hover{
     color: #888f98;
 }
-.hero-section, header, .technologies-list{
-    display: flex;
-}
-
-.awesome-website{
+.hello{
     flex: 0.5;
 }
-
 .hero-section img{
     flex: 0.5;
     max-width: 220px;
     margin: 0 auto;
 }
-
-hero header a, hero section button a {
+hero header a, .hero-section button a {
     text-decoration: none; 
     color: #F9FAF8;
 }
-
-hero section{
+.hero-section{
     margin-top: 50px;
 }
-
-
-hero section h1{
+.hero-section h1{
     font-size: 48px;
     font-weight: 900;
-    
 }
 
 .description, .contact-description {
@@ -78,31 +67,28 @@ button:hover {
     font-weight: 900;
     
 }
-
+/*Techlogies: */
 .technologies-section{
     margin: 50px 350px;
     text-align: center;
 }
-
 .technologies-section h2{
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
     margin-bottom: 50px;
 }
-
+.tech-description{
+    color: #888f98;
+    margin: 18px;
+}
 .tech-description img{
     max-height: 100px;
     border: 3px solid #3882F6;
     border-radius: 10px;
     padding: 15px;
 }
-
-.tech-description{
-    color: #888f98;
-    margin: 18px;
-}
-
+/*Quote: */
 .quote{
     text-align: center;
     background-color: #E5E7EB;
@@ -111,32 +97,28 @@ button:hover {
     font-style: italic;
     padding: 50px 350px;
 }
-
 .thor{
     text-align: right;
     font-weight:700;
     font-style: normal;
 }
-
+/*Contact: */
 .contact{
     margin: 100px 250px;
     padding: 30px 80px;
     background-color: #3882F6;
     border-radius: 5px;
     color: #F9FAF8;
-    display: flex;
+    
 }
-
 .contact-text {
     flex: 1;
 }
-
 .contact-text h4{
     margin: 0;
     font-size: 22px;
    
 }
-
 .contact button{
     flex: 0.3;
     color: #F9FAF8;
@@ -146,7 +128,7 @@ button:hover {
     padding: 10px 20px;
     margin: 20px 60px
 }
-
+/*Footer: */
 footer{
     text-align: center;
     padding: 50px;
