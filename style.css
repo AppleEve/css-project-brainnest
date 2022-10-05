@@ -27,6 +27,10 @@
 .header-links a{
     margin-left: 25px;
 }
+
+.header-links a:hover{
+    color: #888f98;
+}
 .hero-section, header, .technologies-list{
     display: flex;
 }
@@ -68,6 +72,11 @@ hero section h1{
     border: none;
     padding: 12px 20px;
     font-weight: 500;
+}
+
+button:hover {
+    font-weight: 900;
+    
 }
 
 .technologies-section{
