@@ -19,13 +19,13 @@
 .header-links{
     flex: 1;
     color: #E5E7EB;
-    
+    text-align: center;
 }
 
 .header-links a{
     margin-left: 25px;
 }
-.hero-section, header{
+.hero-section, header, .technologies-list{
     display: flex;
 }
 
@@ -55,7 +55,7 @@ hero section h1{
     
 }
 
-.description{
+.description {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -64,9 +64,35 @@ hero section h1{
     background-color: #3882F6;
     border-radius: 7px;
     border: none;
-    padding: 12px 25px;
+    padding: 12px 20px;
     font-weight: 500;
 }
+
+.technologies-section{
+    margin: 50px 350px;
+    text-align: center;
+}
+
+.technologies-section h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.tech-description img{
+    max-height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.tech-description{
+    color: #888f98;
+    margin: 18px;
+}
+
+
 
 
 
