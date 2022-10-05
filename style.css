@@ -1,0 +1,72 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px 220px 100px;
+}
+
+
+
+.logo{
+    font-size: 24px;
+    font-weight: 800;
+    flex: 1;
+}
+
+.header-links{
+    flex: 1;
+    color: #E5E7EB;
+    
+}
+
+.header-links a{
+    margin-left: 25px;
+}
+.hero-section, header{
+    display: flex;
+}
+
+.awesome-website{
+    flex: 0.5;
+}
+
+.hero-section img{
+    flex: 0.5;
+    max-width: 220px;
+    margin: 0 auto;
+}
+
+hero header a, hero section button a {
+    text-decoration: none; 
+    color: #F9FAF8;
+}
+
+hero section{
+    margin-top: 50px;
+}
+
+
+hero section h1{
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+
+.description{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-section button {
+    background-color: #3882F6;
+    border-radius: 7px;
+    border: none;
+    padding: 12px 25px;
+    font-weight: 500;
+}
+
+
+
