@@ -2,13 +2,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.hero {
+.hero, footer {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 10px 220px 100px;
+    
 }
 
-
+.hero {
+    padding: 10px 220px 100px;
+}
 
 .logo{
     font-size: 24px;
@@ -55,7 +57,7 @@ hero section h1{
     
 }
 
-.description {
+.description, .contact-description {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -105,6 +107,40 @@ hero section h1{
     text-align: right;
     font-weight:700;
     font-style: normal;
+}
+
+.contact{
+    margin: 100px 250px;
+    padding: 30px 80px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.contact-text {
+    flex: 1;
+}
+
+.contact-text h4{
+    margin: 0;
+    font-size: 22px;
+   
+}
+
+.contact button{
+    flex: 0.3;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 20px 60px
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
 }
 
 
