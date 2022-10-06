@@ -10,6 +10,10 @@
 .hero-section, header, .technologies-list, .contact{
     display: flex;
 }
+.header-links, .description, .contact-description, footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 /*Hero: */
 .hero {
     padding: 10px 220px 100px;
@@ -21,7 +25,6 @@
 }
 .header-links{
     flex: 1;
-    color: #E5E7EB;
     text-align: center;
 }
 .header-links a{
@@ -40,7 +43,7 @@
 }
 hero header a, .hero-section button a {
     text-decoration: none; 
-    color: #F9FAF8;
+    color: #E5E7EB;
 }
 .hero-section{
     margin-top: 50px;
@@ -49,12 +52,6 @@ hero header a, .hero-section button a {
     font-size: 48px;
     font-weight: 900;
 }
-
-.description, .contact-description {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
 .hero-section button {
     background-color: #3882F6;
     border-radius: 7px;
@@ -62,7 +59,6 @@ hero header a, .hero-section button a {
     padding: 12px 20px;
     font-weight: 500;
 }
-
 button:hover {
     font-weight: 900;
     
@@ -93,14 +89,16 @@ button:hover {
     text-align: center;
     background-color: #E5E7EB;
     font-size: 36px;
-    font-weight: 200;
+    font-weight: 300;
     font-style: italic;
     padding: 50px 350px;
+    color: #242e3c;
 }
 .thor{
     text-align: right;
     font-weight:700;
     font-style: normal;
+    font-size: 26px;
 }
 /*Contact: */
 .contact{
@@ -109,7 +107,6 @@ button:hover {
     background-color: #3882F6;
     border-radius: 5px;
     color: #F9FAF8;
-    
 }
 .contact-text {
     flex: 1;
@@ -123,10 +120,11 @@ button:hover {
     flex: 0.3;
     color: #F9FAF8;
     background-color: #3882F6;
-    border: 2px solid #F9FAF8;
+    border: 3px solid #F9FAF8;
     border-radius: 10px;
-    padding: 10px 20px;
-    margin: 20px 60px
+    padding: 10px 0px;
+    margin: 20px 60px;
+    font-weight: 500;
 }
 /*Footer: */
 footer{
